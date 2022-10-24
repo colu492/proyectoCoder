@@ -9,7 +9,7 @@ body{
     padding-top: 150px;
 }
 
-/*    HEADER     */
+                            /*    HEADER     */
 
 header {
     background-color: #d4d0ff7c;
@@ -23,15 +23,23 @@ header {
     left: 0;
     z-index: 1000;
 }
-
-
 .logo {
     width: 240px;
+}
+
+.contenedor__menu ul{
+    font-weight: 600;
+}
+
+.contenedor__menu ul li:hover{
+    color: #3b165d;
+    text-decoration: underline;
 }
 
 
                              /*            ENCABEZADO          */
 
+                        
 .contenedor__encabezado {
     display: flex;
     justify-content: space-evenly;
@@ -409,9 +417,21 @@ footer {
 @media screen and (max-width: 768px) {
     
                   /* HEADER */
-    
+    header nav{
+        text-align: center;
+    }    
     .logo {
         width: 185px;
+    }
+    .contenedor__menu{
+        position: fixed;
+        right: 20%;
+        top: 8%;
+    }
+    .contenedor__menu ul{
+        background: #dbc0f5;
+        border-radius: 20px;
+        z-index: 2;
     }
 
                    /* CONTENIDO */
