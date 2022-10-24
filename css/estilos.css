@@ -123,6 +123,9 @@ header {
     color: #611da0;
 }
 
+.boton1:focus{
+    background: #8a2be2;
+}
 
                                 /*     SLIDER HOME     */
 
