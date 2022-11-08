@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+    
+    /* HEADER */
+header{ 
+    nav{
+    text-align: center;
+    }    
+    .logo {
+    width: 185px;
+    }
+    .contenedor__menu{
+    position: fixed;
+    right: 20%;
+    top: 8%;
+    ul{
+        background: #dbc0f5;
+        border-radius: 20px;
+        z-index: 2;
+        }
+    }
+}
+     /* CONTENIDO */
+.encabezado{
+    text-align: center;
+    img {
+    display: none;
+    }
+}
+.cuadro__servicios{
+    padding: 20px;
+}
+.contenedor__slider{
+    display: none;
+}
+.image__carousel{
+    width: 50px;
+}
+
+      /* FOOTER */
+
+
+.widget__footer {
+    width: 200px;
+    text-align: center;
+    img{
+    width: 150px;
+    margin: auto;
+    }
+    a {
+        img{
+            width: 40px;
+            }
+    }
+}
+
+      /* FORMULARIO */
+
+.contenedor__contacto{
+    width: 400px;
+}
+
+     /* PORTAFOLIO (pagina) */
+
+
+.texto{
+    font-size: 14px;
+    text-align: center;
+    }
+
+.contenedor__portafolio{
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0,3fr 1fr 0,4fr 1fr 0,4fr 1fr 0,3fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto texto"
+    "foto1 foto2"
+    "foto3 foto3"
+    "foto4 foto5"
+    "foto6 foto6"
+    "foto7 foto8"
+    "texto1 texto1";
+    }
+
+.texto1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    }
+
+        /* SERVICIOS (pagina) */
+
+.contenedor__desServicios{
+    padding: 30px 60px;
+    font-size: 20px;
+    }
+}

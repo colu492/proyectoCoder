@@ -1,0 +1,35 @@
+.contenedor__contacto{
+    margin: auto;
+    width: 500px;
+    background: $colorPrincipal;
+    color: #ffffff;
+    position: relative;
+    border-radius: 40px 0px 40px 0px;
+    padding: 30px;
+    padding-bottom: 80px;
+    h1{
+        text-align: center;
+        font-weight: $tituloPeso;
+    }
+}
+
+.boton__submit{
+    position: absolute;
+    left: 40%;
+    margin: 10px;
+    background-color: $colorClaro;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    &:hover {
+        background-color: $colorSecundario;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.contenedor__derechos{
+    text-align: center;
+    padding: 20px;
+    opacity: 50%;
+}

@@ -1,0 +1,21 @@
+
+@keyframes flotar{
+    0%{
+        transform: translateY(-8px);
+    }
+    50%{
+        transform: translateY(8px);
+    }
+    100%{
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes portafolio {
+    0%{
+        transform: scale(1, 1);
+    }
+    100%{
+        transform: scale(1.5, 1.5);
+    }
+}
