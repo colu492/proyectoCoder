@@ -49,6 +49,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
     img{
         max-width: 200px;
         &:hover {animation: flotar 5s ease-in-out infinite;}
@@ -122,4 +123,7 @@
         padding: 50px;
         color: $colorPrincipal;
     }
+    .card {
+        border: 0px;
+    }    
 }

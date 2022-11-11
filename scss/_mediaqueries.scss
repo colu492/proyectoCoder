@@ -20,6 +20,7 @@ header{
     }
 }
      /* CONTENIDO */
+
 .encabezado{
     text-align: center;
     img {
@@ -28,6 +29,12 @@ header{
 }
 .cuadro__servicios{
     padding: 20px;
+}
+
+.contenedor__equipo{
+    .card{
+        padding-bottom: 40px;
+    }
 }
 .contenedor__slider{
     display: none;

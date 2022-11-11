@@ -28,9 +28,9 @@
     grid-area: titulo;
 }
 .texto{
-    font-size: 20px;
+    font-size: 24px;
     color: $colorSecundario;
-    font-weight: 500;
+    font-weight: 600;
     grid-area: texto;
     text-align: right;
 }
@@ -60,7 +60,7 @@
 }
 .texto1{
     text-align: end;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     padding: 50px;
     color: $colorPrincipal;
